@@ -4,7 +4,7 @@ The imputation strategy refers to [Shi et al.](https://www.nature.com/articles/s
 - Specifically, for each of all 1,002 genes in the STARmap data, we performed an intermediate mapping to align each STARmap cell with the nearest neighbors in reference single-cell dataset. This step is used to find the best neighborhood parameter. `intermediate_mapping.py`
 
 ### Final imputation
-- For every cell, we calculated each gene’s imputed expression level as the weighted average of the gene’s expression across the associated set of scRNA-seq atlas cells, where weights were proportional to the reciprocol of distances: `final_mapping.py`
+- For every cell, we calculated each gene’s imputed expression level as the weighted average of the gene’s expression across the associated set of scRNA-seq atlas cells, where weights were proportional to the reciprocol of distances: `final_mapping.py`. The same imputation strategy was applied to ATAC-seq-derived profiles, including DORC scores and gene activities.
 
 ### Visualization
 - Visualize imputation results and observed STARmap data for user-defined genes side-by-side: `visualize_imputation_results.py`

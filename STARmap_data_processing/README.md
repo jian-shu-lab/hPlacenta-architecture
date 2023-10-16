@@ -18,5 +18,9 @@ These code snippets were used to preprocess STARmap data, segment cells, annotat
 ### Cell annotation from reference single cell data
 - We used the single-cell multiomics data we generated in this study to annotate STARmap segmented cells. We utilized Seurat v4 and transferred labels (embeddings) to the STARmap data: `integration_label_transfer`
 
+### Cell-cell interaction inferferce
+- We inferred cell-cell interactions using CellChat with imputed gene expression profiles. More details can be found in: `infer_cell_interaction.R`
+
 ### Visualization
 - Results were visualized in various ways, which can be found here: `visualization`
+
