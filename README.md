@@ -1,4 +1,4 @@
-# hPlacenta-atlas
+# hPlacenta-architecture
  Codes for the data analysis in the human placenta atlas.Major content includes:
 
  1. STARmap data preprocessing and analysis
