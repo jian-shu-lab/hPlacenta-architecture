@@ -9,4 +9,4 @@
  The manuscript is under preparation and will be out soon.
 
 ### Contributors
-Kang Jin, Koseki Kobayashi-Kirschvink, Johain Ounadjela
+Kang Jin, Koseki Kobayashi-Kirschvink, Andrew Russell, Andreas Lackner, Johain Ounadjela
