@@ -4,6 +4,8 @@
  1. STARmap data preprocessing and analysis
  2. STARmap cell segmentation and label transfer from reference single-cell data
  3. Imputation of whole transciptome data for STARmap cells
+ 4. Preprocessing, clustering, and downstream analysis of 10X multiome data
+ 5. Chromatin potential of 10X multiome data
 
  ### Citation
  The manuscript is under preparation and will be out soon.
